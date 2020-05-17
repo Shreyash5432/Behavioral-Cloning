@@ -1,6 +1,21 @@
 # Behavioral-Cloning
 The project is focussed on teaching a convolutional neural network to drive around a track without leaving the driving surface.
 
+## Steps for this project: -
+* Use the simulator to collect data of good driving behavior
+* Build, a convolution neural network in Keras that predicts steering angles from images
+* Train and validate the model with a training and validation set
+* Test that the model successfully drives around track one without leaving the road
+* Summarize the results with a written report
+
+## Files included in this repository
+
+- model.py - The script used to create and train the model.
+- drive.py - The script to drive the car.
+- model.h5 - The saved model containing the weights of trained CNN.
+- video.py - Creates a video recording of the vehicle driving autonomously at least one lap around the track.
+
+
 ## CNN Model Architecture
 My first step was to use a convolution neural network model similar to Nvidia’s End-to-End deep learning model.  I thought this model might be appropriate because it uses an end-to-end approach which means it uses minimum training data to learn to steer around the road.
 
