@@ -16,7 +16,7 @@ The final model architecture along with the input and output shape of the image 
 </p>
 
 ## Training Strategy
-The model architecture was developed in a way that it can learn the steering angle accurately using the smaller dataset of images from the front camera. I recorded one lap of the track using center lane driving (see Video: Center lane driving) along with some maneuvers of vehicle recovering from the left and right side of the road back to the center (see Video: Recovering maneuver).
+The model architecture was developed in a way that it can learn the steering angle accurately using the smaller dataset of images from the front camera. I recorded one lap of the track using center lane driving (see Video: [Center lane driving](https://github.com/Shreyash5432/Behavioral-Cloning/blob/master/Center%20lane%20driving.mov "Center lane driving")) along with some maneuvers of vehicle recovering from the left and right side of the road back to the center (see Video: [Recovering maneuver](https://github.com/Shreyash5432/Behavioral-Cloning/blob/master/Recovering%20maneuver.mov "Recovering maneuver")).
 
 A single frame in the video gave three outputs: images from the camera mounted on the left, center and right side of the vehicle. To augment the center camera image data with left and right camera image data, I used a correction factor for the steering wheel. So, for the same frame, the steering angle for the left, center and right camera image will be:
 
@@ -60,4 +60,4 @@ After the collection process, I had total of 48516 images in the dataset. I then
 </p>
  
 ## Output: Testing the trained model
-The video titled "Final Output" shows the result obtain while testing the Convolutional Neural Network model. We can see that the vehicle is driving around the race track without leaving the driving surface.
+The video titled "[Final Output](https://github.com/Shreyash5432/Behavioral-Cloning/blob/master/Final%20Output.mov "Final Output")" shows the result obtain while testing the Convolutional Neural Network model. We can see that the vehicle is driving around the race track without leaving the driving surface.
